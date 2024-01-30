@@ -11,17 +11,14 @@ public:
             {
                  int x;
                  int y;
-                  if(!st.empty())
-                  {
+                 
                        x = st.top();
                        st.pop();
-                  }
-              
-                if(!st.empty())
-                {
+                  
+             
                     y = st.top();
                     st.pop();
-                }
+                
                 
                 
                 if(s[i][0]=='/')
